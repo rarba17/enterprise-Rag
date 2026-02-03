@@ -1,0 +1,43 @@
+# --- Security (CRITICAL) ---
+.env
+.env.local
+.env.*
+secrets.yaml
+
+
+# --- Python & Virtual Environments ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Project Specific (RAG Data) ---
+# Ignore the local folder where users upload PDFs
+uploads/
+# Ignore local Docker volume data if you mapped it locally
+postgres_data/
+redis_data/
+
+# --- Celery & Worker ---
+celerybeat-schedule
+celerybeat.pid
+*.log
+
+# --- IDE & OS Settings ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Testing & Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+test.py

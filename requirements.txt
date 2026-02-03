@@ -1,0 +1,23 @@
+# --- Web Framework & Server ---
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9  # Required for file uploads
+
+# --- Task Queue & Event Driving ---
+celery==5.3.6
+redis==5.0.1
+
+# --- AI & RAG Orchestration ---
+langchain==0.1.11
+langchain-openai==0.0.8
+langchain-community==0.0.25
+tiktoken==0.6.0          # Tokenizer for OpenAI models
+
+# --- Database & Vector Store ---
+sqlalchemy==2.0.27
+psycopg2-binary==2.9.9   # Postgres driver
+pgvector==0.2.5          # Essential for using Postgres as a Vector DB
+
+# --- Environment & Utilities ---
+python-dotenv==1.0.1
+pydantic-settings==2.2.1
