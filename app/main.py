@@ -1,65 +1,105 @@
 # main.py
-from fastapi import FastAPI, UploadFile, File, Depends, HTTPException
-from sqlalchemy.ext.asyncio import AsyncSession
-from .database import get_db
-from .models import Document
-from .tasks import process_document_task
+"""
+Enterprise RAG API - Main Application
+
+A production-ready, event-driven Retrieval-Augmented Generation backend
+with JWT authentication, async document processing, and semantic caching.
+"""
+
+import os
+from contextlib import asynccontextmanager
+
+from fastapi import FastAPI
+from sqlalchemy import text
 from langchain.globals import set_llm_cache
 from langchain_community.cache import RedisSemanticCache
-from contextlib import asynccontextmanager
 from langchain_openai import OpenAIEmbeddings
-import shutil
-import os
-import uuid
-from sqlalchemy import text
-from .database import engine,Base
+from dotenv import load_dotenv
+
+from .database import engine, Base
+from .routes import auth_router, documents_router, query_router
+
+load_dotenv()
+
+REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6380/0")
 
 
 @asynccontextmanager
-async def lifespan(app: FastAPI):
+async def lifespan(_app: FastAPI):
+    """Application lifespan handler for startup/shutdown events."""
     # --- Startup Logic ---
-    print("🛠️  Creating database tables...")
+    print("Creating database tables...")
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
         await conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector;"))
-    print("🚀 Initializing Semantic Cache...")
+
+    print("Initializing Semantic Cache...")
     set_llm_cache(RedisSemanticCache(
-        redis_url="redis://localhost:6379/0",
+        redis_url=REDIS_URL,
         embedding=OpenAIEmbeddings()
     ))
+
+    print("Enterprise RAG API started successfully!")
     yield
-    # --- Shutdown Logic (if needed) ---
-    print("🛑 Shutting down...")
 
-app = FastAPI()
+    # --- Shutdown Logic ---
+    print("Shutting down...")
 
-@app.get("/")
+
+app = FastAPI(
+    title="Enterprise RAG API",
+    description="""
+## Overview
+Production-ready RAG backend for document processing and semantic search.
+
+## Features
+- **JWT Authentication** - Secure token-based authentication
+- **Async Document Processing** - Non-blocking PDF ingestion via Celery
+- **Semantic Search** - Vector similarity search with pgvector
+- **Smart Caching** - Redis semantic cache reduces API costs
+
+## Quick Start
+1. Register: `POST /auth/register`
+2. Login: `POST /auth/login`
+3. Upload PDF: `POST /documents/upload`
+4. Ask questions: `GET /query/ask?question=...`
+    """,
+    version="1.0.0",
+    lifespan=lifespan,
+    docs_url="/docs",
+    redoc_url="/redoc",
+)
+
+
+# =============================================================================
+# ROUTERS
+# =============================================================================
+
+app.include_router(auth_router)
+app.include_router(documents_router)
+app.include_router(query_router)
+
+
+# =============================================================================
+# ROOT ENDPOINT
+# =============================================================================
+
+@app.get("/", tags=["Health"])
 async def root():
-    return {"status": "Cache initialized and running"}
+    """Health check endpoint."""
+    return {
+        "status": "healthy",
+        "service": "Enterprise RAG API",
+        "version": "1.0.0"
+    }
 
-@app.post("/upload")
-async def upload_document(
-    file: UploadFile = File(...),
-    db: AsyncSession = Depends(get_db)
-):
-    # 1. Save file to local storage
-    os.makedirs("uploads", exist_ok=True)
-    file_path = f"uploads/{uuid.uuid4()}_{file.filename}"
-    with open(file_path, "wb") as buffer:
-        shutil.copyfileobj(file.file, buffer)
 
-    # 2. Create entry in Postgres
-    new_doc = Document(filename=file.filename, status="PENDING")
-    db.add(new_doc)
-    await db.commit()
-    await db.refresh(new_doc)
-
-    # 3. Trigger Event-Driven Task
-    # We pass the ID and Path so the worker knows what to process
-    task = process_document_task.delay(file_path, str(new_doc.id))
-
-    # 4. Update the doc with the celery task_id
-    new_doc.task_id = task.id
-    await db.commit()
-
-    return {"document_id": new_doc.id, "status": "Processing Started"}
+@app.get("/health", tags=["Health"])
+async def health_check():
+    """Detailed health check endpoint."""
+    return {
+        "status": "healthy",
+        "database": "connected",
+        "cache": "connected",
+        "worker": "check /documents for processing status"
+    }

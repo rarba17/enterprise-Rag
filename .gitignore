@@ -3,6 +3,7 @@
 .env.local
 .env.*
 secrets.yaml
+.claudeignore
 
 
 # --- Python & Virtual Environments ---

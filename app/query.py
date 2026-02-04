@@ -1,19 +1,26 @@
+import os
+from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
-from langchain_community.vectorstores import PGVector
+from langchain_community.vectorstores.pgvector import PGVector
 from langchain.chains import RetrievalQA
 
-# Connection string for the vector store
-CONNECTION_STRING = "postgresql+psycopg2://postgres:password@localhost:5432/rag_project"
+load_dotenv()
 
-@app.get("/ask")
-async def ask_question(question: str):
+# Connection string for the vector store (sync driver)
+CONNECTION_STRING = os.getenv(
+    "SYNC_DATABASE_URL",
+    "postgresql+psycopg2://postgres:password@localhost:5433/rag_db"
+)
+
+
+def ask_question(question: str):
     embeddings = OpenAIEmbeddings()
 
-    # 1. Connect to our existing vector store in Postgres
-    vectorstore = PGVector(
+    # 1. Connect to existing vector store in Postgres
+    vectorstore = PGVector.from_existing_index(
+        embedding=embeddings,
         collection_name="enterprise_docs",
         connection_string=CONNECTION_STRING,
-        embedding_function=embeddings,
     )
 
     # 2. Setup the LLM

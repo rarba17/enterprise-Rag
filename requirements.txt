@@ -21,3 +21,8 @@ pgvector==0.2.5          # Essential for using Postgres as a Vector DB
 # --- Environment & Utilities ---
 python-dotenv==1.0.1
 pydantic-settings==2.2.1
+
+# --- Authentication ---
+python-jose[cryptography]==3.3.0  # JWT token handling
+bcrypt==4.2.1                     # Password hashing
+asyncpg==0.29.0                   # Async PostgreSQL driver
