@@ -42,3 +42,6 @@ Thumbs.db
 htmlcov/
 
 test.py
+
+ARCHITECTURE.md
+test_auth.py

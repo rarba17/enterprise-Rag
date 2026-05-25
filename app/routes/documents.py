@@ -1,12 +1,13 @@
 """Document management routes for upload and retrieval."""
 
+import glob
 import os
 import shutil
 import uuid
 from typing import Annotated
 
 from fastapi import APIRouter, Depends, File, HTTPException, UploadFile, status
-from sqlalchemy import select
+from sqlalchemy import select, text
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from ..database import get_db
@@ -16,6 +17,7 @@ from ..tasks import process_document_task
 from ..security import get_current_active_user
 
 router = APIRouter(prefix="/documents", tags=["Documents"])
+MAX_FILE_SIZE = 10 * 1024 * 1024 # 10 MB limit for uploaded files
 
 UPLOAD_DIR = "uploads"
 
@@ -39,6 +41,19 @@ async def upload_document(
             status_code=status.HTTP_400_BAD_REQUEST,
             detail="Only PDF files are supported"
         )
+
+
+    # Check file size
+    file.file.seek(0, 2)  # Seek to end
+    file_size = file.file.tell()
+    file.file.seek(0)  # Reset
+
+    if file_size > MAX_FILE_SIZE:
+        raise HTTPException(status_code=413, detail="File too large")
+
+    # Sanitize filename
+    safe_filename = "".join(c for c in file.filename if c.isalnum() or c in "._- ")
+    file_path = f"{UPLOAD_DIR}/{uuid.uuid4()}_{safe_filename}"
 
     # Save file to local storage
     os.makedirs(UPLOAD_DIR, exist_ok=True)
@@ -116,6 +131,8 @@ async def delete_document(
     """
     Delete a document by ID.
 
+    Removes the document record, its vector embeddings from pgvector,
+    and the uploaded PDF file from disk.
     Only deletes documents owned by the current user.
     """
     result = await db.execute(
@@ -132,5 +149,24 @@ async def delete_document(
             detail="Document not found"
         )
 
+    # 1. Delete vector embeddings from pgvector by doc_id in metadata
+    doc_id_str = str(document_id)
+    await db.execute(
+        text("""
+            DELETE FROM langchain_pg_embedding
+            WHERE cmetadata->>'doc_id' = :doc_id
+        """),
+        {"doc_id": doc_id_str}
+    )
+
+    # 2. Delete uploaded file from disk
+    for filepath in glob.glob(f"{UPLOAD_DIR}/*_{document.filename}"):
+        try:
+            os.remove(filepath)
+        except OSError:
+            pass  # File may already be gone
+
+    # 3. Delete the document record
     await db.delete(document)
     await db.commit()
+

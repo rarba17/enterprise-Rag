@@ -10,7 +10,14 @@ DATABASE_URL = os.getenv("DATABASE_URL", "postgresql+asyncpg://postgres:password
 
 # 1. Create the Async Engine
 # 'echo=True' is helpful for debugging during your project development
-engine = create_async_engine(DATABASE_URL, echo=False)
+engine = create_async_engine(
+    DATABASE_URL,
+    echo=False,
+    pool_size=20,
+    max_overflow=40,
+    pool_pre_ping=True,  # Verify connections before use
+    pool_recycle=3600
+    )
 
 # 2. Create a Session Factory
 # expire_on_commit=False prevents issues when accessing objects after a commit

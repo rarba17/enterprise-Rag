@@ -41,8 +41,17 @@ def process_document_task(self, file_path: str, doc_id: str):
         # 1. Load and Split PDF
         loader = PyPDFLoader(file_path)
         docs = loader.load()
-        text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
+        # Smaller chunks capture specific details (like CGPA) better
+        text_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=500,
+            chunk_overlap=100,
+            separators=["\n\n", "\n", ". ", " ", ""]
+        )
         chunks = text_splitter.split_documents(docs)
+
+        # Tag each chunk with the document ID for later cleanup
+        for chunk in chunks:
+            chunk.metadata["doc_id"] = doc_id
 
         # 2. Embed and Store in Postgres via pgvector
         embeddings = OpenAIEmbeddings()

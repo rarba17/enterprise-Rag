@@ -11,9 +11,10 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 from sqlalchemy import text
-from langchain.globals import set_llm_cache
-from langchain_community.cache import RedisSemanticCache
-from langchain_openai import OpenAIEmbeddings
+# Uncomment if re-enabling semantic cache
+# from langchain.globals import set_llm_cache
+# from langchain_community.cache import RedisSemanticCache
+# from langchain_openai import OpenAIEmbeddings
 from dotenv import load_dotenv
 
 from .database import engine, Base
@@ -33,11 +34,13 @@ async def lifespan(_app: FastAPI):
         await conn.run_sync(Base.metadata.create_all)
         await conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector;"))
 
-    print("Initializing Semantic Cache...")
-    set_llm_cache(RedisSemanticCache(
-        redis_url=REDIS_URL,
-        embedding=OpenAIEmbeddings()
-    ))
+    # Semantic cache disabled for testing - uncomment to re-enable
+    # print("Initializing Semantic Cache...")
+    # set_llm_cache(RedisSemanticCache(
+    #     redis_url=REDIS_URL,
+    #     embedding=OpenAIEmbeddings(),
+    #     score_threshold=0.05  # Very strict threshold
+    # ))
 
     print("Enterprise RAG API started successfully!")
     yield
