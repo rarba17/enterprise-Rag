@@ -1,0 +1,377 @@
+{
+  "dataset": "synthetic",
+  "similarity": {
+    "search_type": "similarity",
+    "k": 8,
+    "fetch_k": 20,
+    "n": 25,
+    "hit@1": 0.76,
+    "hit@5": 1.0,
+    "hit@8": 1.0,
+    "mrr": 0.867,
+    "items": [
+      {
+        "id": "F01",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F02",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F03",
+        "type": "factoid",
+        "rank": 2,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F04",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F05",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F06",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F07",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F08",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F09",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F10",
+        "type": "factoid",
+        "rank": 2,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F11",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F12",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F13",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F14",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F15",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "P01",
+        "type": "paraphrase",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "P02",
+        "type": "paraphrase",
+        "rank": 2,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "P03",
+        "type": "paraphrase",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "P04",
+        "type": "paraphrase",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "P05",
+        "type": "paraphrase",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "M01",
+        "type": "multihop",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "M02",
+        "type": "multihop",
+        "rank": 3,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "M03",
+        "type": "multihop",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "M04",
+        "type": "multihop",
+        "rank": 3,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "M05",
+        "type": "multihop",
+        "rank": 2,
+        "hit@5": 1,
+        "hit@8": 1
+      }
+    ]
+  },
+  "mmr": {
+    "search_type": "mmr",
+    "k": 8,
+    "fetch_k": 20,
+    "n": 25,
+    "hit@1": 0.76,
+    "hit@5": 0.88,
+    "hit@8": 0.88,
+    "mrr": 0.82,
+    "items": [
+      {
+        "id": "F01",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F02",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F03",
+        "type": "factoid",
+        "rank": null,
+        "hit@5": 0,
+        "hit@8": 0
+      },
+      {
+        "id": "F04",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F05",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F06",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F07",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F08",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F09",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F10",
+        "type": "factoid",
+        "rank": 2,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F11",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F12",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F13",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F14",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "F15",
+        "type": "factoid",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "P01",
+        "type": "paraphrase",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "P02",
+        "type": "paraphrase",
+        "rank": null,
+        "hit@5": 0,
+        "hit@8": 0
+      },
+      {
+        "id": "P03",
+        "type": "paraphrase",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "P04",
+        "type": "paraphrase",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "P05",
+        "type": "paraphrase",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "M01",
+        "type": "multihop",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "M02",
+        "type": "multihop",
+        "rank": null,
+        "hit@5": 0,
+        "hit@8": 0
+      },
+      {
+        "id": "M03",
+        "type": "multihop",
+        "rank": 1,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "M04",
+        "type": "multihop",
+        "rank": 2,
+        "hit@5": 1,
+        "hit@8": 1
+      },
+      {
+        "id": "M05",
+        "type": "multihop",
+        "rank": 2,
+        "hit@5": 1,
+        "hit@8": 1
+      }
+    ]
+  }
+}

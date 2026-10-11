@@ -1,0 +1,77 @@
+{
+  "model": "cpu-only",
+  "dataset": "public",
+  "n": 5,
+  "rows": [
+    {
+      "id": "SQ-F00",
+      "type": "factoid",
+      "q": "Who did the geographic scholars work for? ",
+      "ground_truth": "colonizing empires",
+      "answer": "I couldn't find this information in the documents.",
+      "cpu": {
+        "keyword_hit": 0,
+        "token_f1": 0.0,
+        "rougeL": 0.0
+      },
+      "judge": null,
+      "n_chunks": 10
+    },
+    {
+      "id": "SQ-F01",
+      "type": "factoid",
+      "q": "What are both Branko Milanovic and Joseph Stiglitz?",
+      "ground_truth": "Economist",
+      "answer": "Both Branko Milanovic and Joseph Stiglitz are economists.",
+      "cpu": {
+        "keyword_hit": 1,
+        "token_f1": 0.0,
+        "rougeL": 0.0
+      },
+      "judge": null,
+      "n_chunks": 10
+    },
+    {
+      "id": "SQ-F02",
+      "type": "factoid",
+      "q": "Some of the income went to the purchase of arms which exacerbated political tension especially in which area?",
+      "ground_truth": "Middle East",
+      "answer": "The Middle East",
+      "cpu": {
+        "keyword_hit": 1,
+        "token_f1": 0.8,
+        "rougeL": 0.8
+      },
+      "judge": null,
+      "n_chunks": 10
+    },
+    {
+      "id": "SQ-F03",
+      "type": "factoid",
+      "q": "Who works to get workers higher compensation?",
+      "ground_truth": "Professional and labor organizations",
+      "answer": "Professional and labor organizations work to get workers higher compensation. Members may receive higher wages through collective bargaining, political influence, or corruption.",
+      "cpu": {
+        "keyword_hit": 1,
+        "token_f1": 0.308,
+        "rougeL": 0.308
+      },
+      "judge": null,
+      "n_chunks": 10
+    },
+    {
+      "id": "SQ-F04",
+      "type": "factoid",
+      "q": "What were European countries doing during the 1700's?",
+      "ground_truth": "colonizing",
+      "answer": "I couldn't find this information in the documents.",
+      "cpu": {
+        "keyword_hit": 0,
+        "token_f1": 0.0,
+        "rougeL": 0.0
+      },
+      "judge": null,
+      "n_chunks": 10
+    }
+  ]
+}

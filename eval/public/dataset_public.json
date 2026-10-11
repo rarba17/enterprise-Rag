@@ -1,0 +1,1124 @@
+[
+  {
+    "id": "SQ-F00",
+    "type": "factoid",
+    "q": "Who did the geographic scholars work for? ",
+    "ground_truth": "colonizing empires",
+    "expected_keyword": "colonizing empires",
+    "expected_file": null,
+    "squad_id": "5730a314069b5314008321ef",
+    "ctx_id": "PUBLIC-10691701",
+    "all_answers": [
+      "colonizing empires",
+      "colonizing empires",
+      "colonizing empires",
+      "colonizing empires",
+      "colonizing empires"
+    ]
+  },
+  {
+    "id": "SQ-F01",
+    "type": "factoid",
+    "q": "What are both Branko Milanovic and Joseph Stiglitz?",
+    "ground_truth": "Economist",
+    "expected_keyword": "Economist",
+    "expected_file": null,
+    "squad_id": "572a1046af94a219006aa78f",
+    "ctx_id": "PUBLIC-31630954",
+    "all_answers": [
+      "Economist",
+      "Economist",
+      "Economist"
+    ]
+  },
+  {
+    "id": "SQ-F02",
+    "type": "factoid",
+    "q": "Some of the income went to the purchase of arms which exacerbated political tension especially in which area?",
+    "ground_truth": "Middle East",
+    "expected_keyword": "Middle East",
+    "expected_file": null,
+    "squad_id": "57261dab38643c19005ad039",
+    "ctx_id": "PUBLIC-23545247",
+    "all_answers": [
+      "Middle East",
+      "Middle East",
+      "Middle East",
+      "Middle East",
+      "Middle East"
+    ]
+  },
+  {
+    "id": "SQ-F03",
+    "type": "factoid",
+    "q": "Who works to get workers higher compensation?",
+    "ground_truth": "Professional and labor organizations",
+    "expected_keyword": "Professional and labor organizations",
+    "expected_file": null,
+    "squad_id": "5727ed2e3acd2414000df005",
+    "ctx_id": "PUBLIC-68497154",
+    "all_answers": [
+      "Professional and labor organizations",
+      "Professional and labor organizations",
+      "Professional and labor organizations"
+    ]
+  },
+  {
+    "id": "SQ-F04",
+    "type": "factoid",
+    "q": "What were European countries doing during the 1700's?",
+    "ground_truth": "colonizing",
+    "expected_keyword": "colonizing",
+    "expected_file": null,
+    "squad_id": "57309446396df919000961b9",
+    "ctx_id": "PUBLIC-46986633",
+    "all_answers": [
+      "colonizing",
+      "process of colonizing, influencing, and annexing other parts of the world",
+      "colonizing, influencing, and annexing other parts of the world in order to gain political power",
+      "colonizing, influencing, and annexing"
+    ]
+  },
+  {
+    "id": "SQ-F05",
+    "type": "factoid",
+    "q": "How man volumes does the The University of Chicago Library system hold?",
+    "ground_truth": "9.8 million",
+    "expected_keyword": "9.8 million",
+    "expected_file": null,
+    "squad_id": "572856beff5b5019007da191",
+    "ctx_id": "PUBLIC-99882953",
+    "all_answers": [
+      "9.8 million",
+      "9.8 million",
+      "9.8 million"
+    ]
+  },
+  {
+    "id": "SQ-F06",
+    "type": "factoid",
+    "q": "How many miles does the dust travels over the Atlantic Ocean?",
+    "ground_truth": "1,600 miles",
+    "expected_keyword": "1,600 miles",
+    "expected_file": null,
+    "squad_id": "5725c63438643c19005acca1",
+    "ctx_id": "PUBLIC-27910584",
+    "all_answers": [
+      "1,600 miles",
+      "1,600",
+      "1,600 miles"
+    ]
+  },
+  {
+    "id": "SQ-F07",
+    "type": "factoid",
+    "q": "Where were Persians more successful compared to Chinese in the Yuan?",
+    "ground_truth": "Ilkhanate",
+    "expected_keyword": "Ilkhanate",
+    "expected_file": null,
+    "squad_id": "572883153acd2414000dfa73",
+    "ctx_id": "PUBLIC-11929274",
+    "all_answers": [
+      "Ilkhanate",
+      "Ilkhanate",
+      "reaching the highest-post in the government"
+    ]
+  },
+  {
+    "id": "SQ-F08",
+    "type": "factoid",
+    "q": "What co-receptor recruits molecules inside the T cell that are responsible for cell activation?",
+    "ground_truth": "CD4 co-receptor",
+    "expected_keyword": "CD4 co-receptor",
+    "expected_file": null,
+    "squad_id": "5729f4b41d0469140077968b",
+    "ctx_id": "PUBLIC-18473142",
+    "all_answers": [
+      "CD4 co-receptor",
+      "CD4",
+      "CD4 co-receptor"
+    ]
+  },
+  {
+    "id": "SQ-F09",
+    "type": "factoid",
+    "q": "How much did Saudi Arabia spend on spreading Wahhabism?",
+    "ground_truth": "over 100 billion dollars",
+    "expected_keyword": "over 100 billion dollars",
+    "expected_file": null,
+    "squad_id": "57261dab38643c19005ad037",
+    "ctx_id": "PUBLIC-23545247",
+    "all_answers": [
+      "over 100 billion dollars",
+      "over 100 billion dollars",
+      "over 100 billion dollars",
+      "over 100 billion dollars",
+      "100 billion dollars"
+    ]
+  },
+  {
+    "id": "SQ-F10",
+    "type": "factoid",
+    "q": "As of February 2011, how many numbers has Goldbach's conjecture been proven to?",
+    "ground_truth": "all numbers up to n = 2 \u00b7 1017",
+    "expected_keyword": "all numbers up to n = 2 \u00b7 1017",
+    "expected_file": null,
+    "squad_id": "57299021af94a219006aa50d",
+    "ctx_id": "PUBLIC-44059890",
+    "all_answers": [
+      "all numbers up to n = 2 \u00b7 1017",
+      "n = 2 \u00b7 1017",
+      "n = 2",
+      "n = 2"
+    ]
+  },
+  {
+    "id": "SQ-F11",
+    "type": "factoid",
+    "q": "What was the goal of this Roman disobedience?",
+    "ground_truth": "prevent the installation of pagan images",
+    "expected_keyword": "prevent the installation of pagan images",
+    "expected_file": null,
+    "squad_id": "5728e3c33acd2414000e0132",
+    "ctx_id": "PUBLIC-93570556",
+    "all_answers": [
+      "prevent the installation of pagan images",
+      "prevent the installation of pagan images in the Temple in Jerusalem",
+      "prevent the installation of pagan images in the Temple in Jerusalem",
+      "to prevent the installation of pagan images in the Temple in Jerusalem",
+      "prevent the installation of pagan images"
+    ]
+  },
+  {
+    "id": "SQ-F12",
+    "type": "factoid",
+    "q": "Are there any other aviation communities such as Sierra Sky Park in the United States?",
+    "ground_truth": "there are now numerous such communities across the United States",
+    "expected_keyword": "there are now numerous such communities ",
+    "expected_file": null,
+    "squad_id": "5725f46289a1e219009ac0fe",
+    "ctx_id": "PUBLIC-54499709",
+    "all_answers": [
+      "there are now numerous such communities across the United States",
+      "numerous"
+    ]
+  },
+  {
+    "id": "SQ-F13",
+    "type": "factoid",
+    "q": "Who challenged Kublai Khan's right to succeed Mongke Khan?",
+    "ground_truth": "Ariq B\u00f6ke",
+    "expected_keyword": "Ariq B\u00f6ke",
+    "expected_file": null,
+    "squad_id": "572867212ca10214002da2f5",
+    "ctx_id": "PUBLIC-81623997",
+    "all_answers": [
+      "Ariq B\u00f6ke",
+      "Ariq B\u00f6ke",
+      "Ariq B\u00f6ke"
+    ]
+  },
+  {
+    "id": "SQ-F14",
+    "type": "factoid",
+    "q": "What can the growth elasticity of poverty depend on?",
+    "ground_truth": "existing level of inequality",
+    "expected_keyword": "existing level of inequality",
+    "expected_file": null,
+    "squad_id": "572a1a5c6aef051400155285",
+    "ctx_id": "PUBLIC-94613288",
+    "all_answers": [
+      "existing level of inequality",
+      "existing level of inequality",
+      "existing level of inequality"
+    ]
+  },
+  {
+    "id": "SQ-F15",
+    "type": "factoid",
+    "q": "What year was Setanta Sports awarded Primeier Leage rights to broadcast?",
+    "ground_truth": "2006",
+    "expected_keyword": "2006",
+    "expected_file": null,
+    "squad_id": "57094a79efce8f15003a7dc4",
+    "ctx_id": "PUBLIC-59596336",
+    "all_answers": [
+      "2006",
+      "2006",
+      "2006"
+    ]
+  },
+  {
+    "id": "SQ-F16",
+    "type": "factoid",
+    "q": "By August 2010 how many public schools did Victoria have?",
+    "ground_truth": "1,548",
+    "expected_keyword": "1,548",
+    "expected_file": null,
+    "squad_id": "570d44abb3d812140066d5fd",
+    "ctx_id": "PUBLIC-74276878",
+    "all_answers": [
+      "1,548",
+      "1,548",
+      "1,548"
+    ]
+  },
+  {
+    "id": "SQ-F17",
+    "type": "factoid",
+    "q": "Jamboree Business Parks belongs to which business center?",
+    "ground_truth": "West Irvine",
+    "expected_keyword": "West Irvine",
+    "expected_file": null,
+    "squad_id": "57060eaf75f01819005e7912",
+    "ctx_id": "PUBLIC-79814284",
+    "all_answers": [
+      "West Irvine",
+      "West Irvine",
+      "West Irvine"
+    ]
+  },
+  {
+    "id": "SQ-F18",
+    "type": "factoid",
+    "q": "When did the Rhine become borders with Francia?",
+    "ground_truth": "6th century",
+    "expected_keyword": "6th century",
+    "expected_file": null,
+    "squad_id": "573009a004bcaa1900d7704f",
+    "ctx_id": "PUBLIC-05493521",
+    "all_answers": [
+      "6th century",
+      "6th century"
+    ]
+  },
+  {
+    "id": "SQ-F19",
+    "type": "factoid",
+    "q": "Where is the oldest known rock in the world located?",
+    "ground_truth": "Slave craton in northwestern Canada",
+    "expected_keyword": "Slave craton in northwestern Canada",
+    "expected_file": null,
+    "squad_id": "57267640f1498d1400e8e078",
+    "ctx_id": "PUBLIC-66614893",
+    "all_answers": [
+      "Slave craton in northwestern Canada",
+      "Canada",
+      "northwestern Canada"
+    ]
+  },
+  {
+    "id": "SQ-F20",
+    "type": "factoid",
+    "q": "What remain unsolved problems with the Kyoto Protocol?",
+    "ground_truth": "varying regional cost-benefit analysis and burden-sharing conflicts with regard to the distribution of emission reductions",
+    "expected_keyword": "varying regional cost-benefit analysis a",
+    "expected_file": null,
+    "squad_id": "5729506d6aef051400154cad",
+    "ctx_id": "PUBLIC-25336998",
+    "all_answers": [
+      "varying regional cost-benefit analysis and burden-sharing conflicts with regard to the distribution of emission reductions",
+      "varying regional cost-benefit analysis and burden-sharing conflicts with regard to the distribution of emission reductions"
+    ]
+  },
+  {
+    "id": "SQ-F21",
+    "type": "factoid",
+    "q": "Along with a desire for more steam pressure, what were early drivers looking to generate when they fastened safety valves down?",
+    "ground_truth": "more power",
+    "expected_keyword": "more power",
+    "expected_file": null,
+    "squad_id": "5711623e50c2381900b54abd",
+    "ctx_id": "PUBLIC-78025299",
+    "all_answers": [
+      "more power",
+      "more power",
+      "greater steam pressure and more power"
+    ]
+  },
+  {
+    "id": "SQ-F22",
+    "type": "factoid",
+    "q": "What body in India provides policy directions to schools?",
+    "ground_truth": "union government",
+    "expected_keyword": "union government",
+    "expected_file": null,
+    "squad_id": "57274beff1498d1400e8f5e7",
+    "ctx_id": "PUBLIC-93597456",
+    "all_answers": [
+      "union government",
+      "the union government",
+      "union government"
+    ]
+  },
+  {
+    "id": "SQ-F23",
+    "type": "factoid",
+    "q": "What does civil disobedience protest against?",
+    "ground_truth": "unfair laws",
+    "expected_keyword": "unfair laws",
+    "expected_file": null,
+    "squad_id": "5728d4c03acd2414000dffa2",
+    "ctx_id": "PUBLIC-77322899",
+    "all_answers": [
+      "unfair laws",
+      "unfair laws",
+      "unfair laws.",
+      "unfair laws",
+      "what they deem to be unfair"
+    ]
+  },
+  {
+    "id": "SQ-F24",
+    "type": "factoid",
+    "q": "When there are many workers competing for a few jobs its considered as what?",
+    "ground_truth": "low demand",
+    "expected_keyword": "low demand",
+    "expected_file": null,
+    "squad_id": "5727ed2e3acd2414000df002",
+    "ctx_id": "PUBLIC-68497154",
+    "all_answers": [
+      "low demand",
+      "high supply",
+      "low wage"
+    ]
+  },
+  {
+    "id": "SQ-F25",
+    "type": "factoid",
+    "q": "When was the St. Bartholomew's Day Massacre?",
+    "ground_truth": "24 August \u2013 3 October 1572",
+    "expected_keyword": "24 August \u2013 3 October 1572",
+    "expected_file": null,
+    "squad_id": "57111428b654c5140001faff",
+    "ctx_id": "PUBLIC-29888724",
+    "all_answers": [
+      "24 August \u2013 3 October 1572",
+      "24 August \u2013 3 October 1572",
+      "24 August \u2013 3 October 1572"
+    ]
+  },
+  {
+    "id": "SQ-F26",
+    "type": "factoid",
+    "q": "What is the lowest recorded temperature in Victoria?",
+    "ground_truth": "\u221211.7 \u00b0C",
+    "expected_keyword": "\u221211.7 \u00b0C",
+    "expected_file": null,
+    "squad_id": "570d391fb3d812140066d579",
+    "ctx_id": "PUBLIC-38793383",
+    "all_answers": [
+      "\u221211.7 \u00b0C",
+      "\u221211.7 \u00b0C",
+      "\u221211.7 \u00b0C (10.9 \u00b0F)"
+    ]
+  },
+  {
+    "id": "SQ-F27",
+    "type": "factoid",
+    "q": "What is the conventional method to measure the Rhine? ",
+    "ground_truth": "Rhine-kilometers",
+    "expected_keyword": "Rhine-kilometers",
+    "expected_file": null,
+    "squad_id": "572f567cb2c2fd140056803f",
+    "ctx_id": "PUBLIC-53286784",
+    "all_answers": [
+      "Rhine-kilometers",
+      "Rhine-kilometers",
+      "\"Rhine-kilometers\"",
+      "Rhine-kilometers",
+      "Rhine-kilometers"
+    ]
+  },
+  {
+    "id": "SQ-F28",
+    "type": "factoid",
+    "q": "What dynasty came after the Yuan?",
+    "ground_truth": "Ming dynasty",
+    "expected_keyword": "Ming dynasty",
+    "expected_file": null,
+    "squad_id": "572860e03acd2414000df979",
+    "ctx_id": "PUBLIC-66121302",
+    "all_answers": [
+      "Ming dynasty",
+      "Ming dynasty",
+      "the Ming dynasty"
+    ]
+  },
+  {
+    "id": "SQ-F29",
+    "type": "factoid",
+    "q": "What was result of French attack of trading centre?",
+    "ground_truth": "capturing three traders and killing 14 people of the Miami nation, including Old Briton",
+    "expected_keyword": "capturing three traders and killing 14 p",
+    "expected_file": null,
+    "squad_id": "5733e8ae4776f419006614a9",
+    "ctx_id": "PUBLIC-56808195",
+    "all_answers": [
+      "capturing three traders and killing 14 people of the Miami nation, including Old Briton",
+      "capturing three traders and killing 14 people of the Miami nation",
+      "capturing three traders and killing 14 people of the Miami nation, including Old Briton",
+      "capturing three traders and killing 14 people",
+      "capturing three traders and killing 14 people of the Miami nation"
+    ]
+  },
+  {
+    "id": "SQ-F30",
+    "type": "factoid",
+    "q": "What have studies on income inequality sometimes found evidence confirming?",
+    "ground_truth": "Kuznets curve hypothesis",
+    "expected_keyword": "Kuznets curve hypothesis",
+    "expected_file": null,
+    "squad_id": "572a13841d0469140077973b",
+    "ctx_id": "PUBLIC-27830243",
+    "all_answers": [
+      "Kuznets curve hypothesis",
+      "Kuznets curve hypothesis",
+      "Kuznets curve hypothesis"
+    ]
+  },
+  {
+    "id": "SQ-F31",
+    "type": "factoid",
+    "q": "When did Polonia Warsaw win the country's championship prior to 2000?",
+    "ground_truth": "1946",
+    "expected_keyword": "1946",
+    "expected_file": null,
+    "squad_id": "5733a32bd058e614000b5f33",
+    "ctx_id": "PUBLIC-44929656",
+    "all_answers": [
+      "1946",
+      "1946",
+      "1946"
+    ]
+  },
+  {
+    "id": "SQ-F32",
+    "type": "factoid",
+    "q": "French troops put down the Camisard uprisings between what years?",
+    "ground_truth": "1702 and 1709",
+    "expected_keyword": "1702 and 1709",
+    "expected_file": null,
+    "squad_id": "5710e8c8a58dae1900cd6b2a",
+    "ctx_id": "PUBLIC-52624956",
+    "all_answers": [
+      "1702 and 1709",
+      "1702 and 1709",
+      "1702 and 1709"
+    ]
+  },
+  {
+    "id": "SQ-F33",
+    "type": "factoid",
+    "q": "Of what were materials that left little residue thought to contain?",
+    "ground_truth": "phlogiston",
+    "expected_keyword": "phlogiston",
+    "expected_file": null,
+    "squad_id": "571c8198dd7acb1400e4c0ce",
+    "ctx_id": "PUBLIC-30059902",
+    "all_answers": [
+      "phlogiston",
+      "phlogiston",
+      "phlogiston",
+      "phlogiston",
+      "phlogiston"
+    ]
+  },
+  {
+    "id": "SQ-F34",
+    "type": "factoid",
+    "q": "What did Iqbal's Allahabad address inspire?",
+    "ground_truth": "Pakistan movement",
+    "expected_keyword": "Pakistan movement",
+    "expected_file": null,
+    "squad_id": "572fffb1b2c2fd14005686fd",
+    "ctx_id": "PUBLIC-45751363",
+    "all_answers": [
+      "Pakistan movement",
+      "the Pakistan movement",
+      "Pakistan movement"
+    ]
+  },
+  {
+    "id": "SQ-F35",
+    "type": "factoid",
+    "q": "In what century did the history of the steam engine begin?",
+    "ground_truth": "first",
+    "expected_keyword": "first",
+    "expected_file": null,
+    "squad_id": "57113c6da58dae1900cd6d32",
+    "ctx_id": "PUBLIC-79040048",
+    "all_answers": [
+      "first",
+      "first century AD",
+      "first century AD",
+      "first century AD"
+    ]
+  },
+  {
+    "id": "SQ-F36",
+    "type": "factoid",
+    "q": "What happens to the packet at the destination",
+    "ground_truth": "the original message/data is reassembled in the correct order, based on the packet sequence number",
+    "expected_keyword": "the original message/data is reassembled",
+    "expected_file": null,
+    "squad_id": "5726385e271a42140099d79a",
+    "ctx_id": "PUBLIC-46838188",
+    "all_answers": [
+      "the original message/data is reassembled in the correct order, based on the packet sequence number",
+      "the original message/data is reassembled in the correct order",
+      "reassembled"
+    ]
+  },
+  {
+    "id": "SQ-F37",
+    "type": "factoid",
+    "q": "Southern California's economy can be described as one of the largest in the United States and what other characteristic?",
+    "ground_truth": "diverse",
+    "expected_keyword": "diverse",
+    "expected_file": null,
+    "squad_id": "5706094b52bb8914006897e1",
+    "ctx_id": "PUBLIC-56620412",
+    "all_answers": [
+      "diverse",
+      "diverse",
+      "diverse"
+    ]
+  },
+  {
+    "id": "SQ-F38",
+    "type": "factoid",
+    "q": "When was the Lisbon Treaty established?",
+    "ground_truth": "2007",
+    "expected_keyword": "2007",
+    "expected_file": null,
+    "squad_id": "5726a34bf1498d1400e8e59e",
+    "ctx_id": "PUBLIC-85312002",
+    "all_answers": [
+      "2007",
+      "2007",
+      "2007"
+    ]
+  },
+  {
+    "id": "SQ-F39",
+    "type": "factoid",
+    "q": "What did the Works Council Directive require?",
+    "ground_truth": "workforce consultation in businesses",
+    "expected_keyword": "workforce consultation in businesses",
+    "expected_file": null,
+    "squad_id": "5726a5525951b619008f78e1",
+    "ctx_id": "PUBLIC-09957580",
+    "all_answers": [
+      "workforce consultation in businesses",
+      "workforce consultation in businesses",
+      "workforce consultation in businesses"
+    ]
+  },
+  {
+    "id": "SQ-F40",
+    "type": "factoid",
+    "q": "What division offers more then one branch of studies that don't fit in with the other four?",
+    "ground_truth": "the New Collegiate Division",
+    "expected_keyword": "the New Collegiate Division",
+    "expected_file": null,
+    "squad_id": "57285213ff5b5019007da183",
+    "ctx_id": "PUBLIC-80955449",
+    "all_answers": [
+      "the New Collegiate Division",
+      "New Collegiate Division",
+      "New Collegiate Division"
+    ]
+  },
+  {
+    "id": "SQ-F41",
+    "type": "factoid",
+    "q": "Why did Berlin Huguenots switch to German from French in their services?",
+    "ground_truth": "in protest against the occupation of Prussia by Napoleon",
+    "expected_keyword": "in protest against the occupation of Pru",
+    "expected_file": null,
+    "squad_id": "571099b2b654c5140001f9b5",
+    "ctx_id": "PUBLIC-87155111",
+    "all_answers": [
+      "in protest against the occupation of Prussia by Napoleon",
+      "in protest",
+      "in protest against the occupation of Prussia by Napoleon"
+    ]
+  },
+  {
+    "id": "SQ-F42",
+    "type": "factoid",
+    "q": "Where do the branches Waal and Nederrijn-Lek discharge to?",
+    "ground_truth": "North Sea",
+    "expected_keyword": "North Sea",
+    "expected_file": null,
+    "squad_id": "5730069004bcaa1900d7702d",
+    "ctx_id": "PUBLIC-16071095",
+    "all_answers": [
+      "North Sea",
+      "North Sea",
+      "North Sea",
+      "North Sea"
+    ]
+  },
+  {
+    "id": "SQ-F43",
+    "type": "factoid",
+    "q": "Are there any regions where the Treaty of European Union excludes from jurisdiction?",
+    "ground_truth": "the Faroe Islands",
+    "expected_keyword": "the Faroe Islands",
+    "expected_file": null,
+    "squad_id": "5725ca4389a1e219009abeb5",
+    "ctx_id": "PUBLIC-83341152",
+    "all_answers": [
+      "the Faroe Islands",
+      "the Faroe Islands",
+      "the Faroe Islands",
+      "the Faroe Islands"
+    ]
+  },
+  {
+    "id": "SQ-F44",
+    "type": "factoid",
+    "q": "Other than Scotland's Chief Law Officer, from whence are most ministers drawn from amongst?",
+    "ground_truth": "elected MSPs",
+    "expected_keyword": "elected MSPs",
+    "expected_file": null,
+    "squad_id": "572fd47fa23a5019007fca58",
+    "ctx_id": "PUBLIC-69739124",
+    "all_answers": [
+      "elected MSPs",
+      "the elected MSPs",
+      "amongst the elected MSPs"
+    ]
+  },
+  {
+    "id": "SQ-F45",
+    "type": "factoid",
+    "q": "If Parliament agrees in a vote to the general principle of a bill, what does it then proceed to?",
+    "ground_truth": "Stage 2",
+    "expected_keyword": "Stage 2",
+    "expected_file": null,
+    "squad_id": "572fce13a23a5019007fca15",
+    "ctx_id": "PUBLIC-82569083",
+    "all_answers": [
+      "Stage 2",
+      "Stage 2",
+      "Stage 2"
+    ]
+  },
+  {
+    "id": "SQ-F46",
+    "type": "factoid",
+    "q": "Where can Aeolian sand with a number of dunes be found?",
+    "ground_truth": "plain Vistula terraces",
+    "expected_keyword": "plain Vistula terraces",
+    "expected_file": null,
+    "squad_id": "57335ddbd058e614000b5932",
+    "ctx_id": "PUBLIC-85742694",
+    "all_answers": [
+      "plain Vistula terraces",
+      "highest terrace",
+      "highest terrace"
+    ]
+  },
+  {
+    "id": "SQ-F47",
+    "type": "factoid",
+    "q": "Who defines what constitutes a patient-doctor relationship?",
+    "ground_truth": "individual state laws",
+    "expected_keyword": "individual state laws",
+    "expected_file": null,
+    "squad_id": "5726ef73f1498d1400e8f061",
+    "ctx_id": "PUBLIC-66251288",
+    "all_answers": [
+      "individual state laws",
+      "individual state laws",
+      "Often, individual state laws outline what defines a valid patient-doctor relationship"
+    ]
+  },
+  {
+    "id": "SQ-F48",
+    "type": "factoid",
+    "q": "What is set up to scrutinize private bills submitted by party outsiders?",
+    "ground_truth": "type of committee",
+    "expected_keyword": "type of committee",
+    "expected_file": null,
+    "squad_id": "572fc8a904bcaa1900d76d1f",
+    "ctx_id": "PUBLIC-90788254",
+    "all_answers": [
+      "type of committee",
+      "committee",
+      "committee"
+    ]
+  },
+  {
+    "id": "SQ-F49",
+    "type": "factoid",
+    "q": "What is 'grey literature'?",
+    "ground_truth": "non-peer-reviewed sources",
+    "expected_keyword": "non-peer-reviewed sources",
+    "expected_file": null,
+    "squad_id": "57293d116aef051400154bca",
+    "ctx_id": "PUBLIC-75461164",
+    "all_answers": [
+      "non-peer-reviewed sources",
+      "non-peer-reviewed sources",
+      "non-peer-reviewed sources"
+    ]
+  },
+  {
+    "id": "SQ-F50",
+    "type": "factoid",
+    "q": "What language other than English has the Scottish Parliament had meetings in?",
+    "ground_truth": "Gaelic",
+    "expected_keyword": "Gaelic",
+    "expected_file": null,
+    "squad_id": "572fc41f947a6a140053cc84",
+    "ctx_id": "PUBLIC-29920135",
+    "all_answers": [
+      "Gaelic",
+      "Gaelic",
+      "Scots, Gaelic, or any other language with the agreement of the Presiding Officer"
+    ]
+  },
+  {
+    "id": "SQ-F51",
+    "type": "factoid",
+    "q": "What issues were not addressed in the Treaty of Aix-la-Chapelle?",
+    "ground_truth": "conflicting territorial claims between British and French",
+    "expected_keyword": "conflicting territorial claims between B",
+    "expected_file": null,
+    "squad_id": "5733e771d058e614000b6547",
+    "ctx_id": "PUBLIC-81272727",
+    "all_answers": [
+      "conflicting territorial claims between British and French",
+      "conflicting territorial claims between British and French colonies in North America",
+      "conflicting territorial claims between British and French colonies in North America",
+      "conflicting territorial claims",
+      "The issues of conflicting territorial claims between British and French colonies"
+    ]
+  },
+  {
+    "id": "SQ-F52",
+    "type": "factoid",
+    "q": "What type of theatre is the Warsaw Fotoplastikon?",
+    "ground_truth": "stereoscopic",
+    "expected_keyword": "stereoscopic",
+    "expected_file": null,
+    "squad_id": "5733a1854776f41900660f0c",
+    "ctx_id": "PUBLIC-40444289",
+    "all_answers": [
+      "stereoscopic",
+      "stereoscopic theatre",
+      "stereoscopic"
+    ]
+  },
+  {
+    "id": "SQ-F53",
+    "type": "factoid",
+    "q": "For what railroad did Stephenson build a locomotive in 1825?",
+    "ground_truth": "Stockton and Darlington",
+    "expected_keyword": "Stockton and Darlington",
+    "expected_file": null,
+    "squad_id": "571153422419e31400955581",
+    "ctx_id": "PUBLIC-72848089",
+    "all_answers": [
+      "Stockton and Darlington",
+      "Stockton and Darlington Railway",
+      "Stockton and Darlington Railway"
+    ]
+  },
+  {
+    "id": "SQ-F54",
+    "type": "factoid",
+    "q": "What type of person can not be attributed civil disobedience?",
+    "ground_truth": "head of government",
+    "expected_keyword": "head of government",
+    "expected_file": null,
+    "squad_id": "5728d9403acd2414000e001d",
+    "ctx_id": "PUBLIC-30311478",
+    "all_answers": [
+      "head of government",
+      "public official",
+      "public official",
+      "public"
+    ]
+  },
+  {
+    "id": "SQ-F55",
+    "type": "factoid",
+    "q": "What organization is the IPCC a part of?",
+    "ground_truth": "the United Nations",
+    "expected_keyword": "the United Nations",
+    "expected_file": null,
+    "squad_id": "57293b843f37b31900478133",
+    "ctx_id": "PUBLIC-92189849",
+    "all_answers": [
+      "the United Nations",
+      "the United Nations",
+      "the United Nations"
+    ]
+  },
+  {
+    "id": "SQ-F56",
+    "type": "factoid",
+    "q": "Cities that anchor the regions are often the hub for what kind of activity?",
+    "ground_truth": "economic",
+    "expected_keyword": "economic",
+    "expected_file": null,
+    "squad_id": "570602fa52bb8914006897a0",
+    "ctx_id": "PUBLIC-38830111",
+    "all_answers": [
+      "economic",
+      "economic",
+      "economic activity"
+    ]
+  },
+  {
+    "id": "SQ-F57",
+    "type": "factoid",
+    "q": "What are some of the accepted general principles of European Union law?",
+    "ground_truth": "fundamental rights (see human rights), proportionality, legal certainty, equality before the law and subsidiarity",
+    "expected_keyword": "fundamental rights (see human rights), p",
+    "expected_file": null,
+    "squad_id": "5726a00cf1498d1400e8e551",
+    "ctx_id": "PUBLIC-03207829",
+    "all_answers": [
+      "fundamental rights (see human rights), proportionality, legal certainty, equality before the law and subsidiarity",
+      "fundamental rights (see human rights), proportionality, legal certainty, equality before the law and subsidiarity",
+      "fundamental rights (see human rights), proportionality, legal certainty, equality before the law and subsidiarity"
+    ]
+  },
+  {
+    "id": "SQ-F58",
+    "type": "factoid",
+    "q": "Within the EU, which court believes they have the final word deciding on EU's competence?",
+    "ground_truth": "Court of Justice",
+    "expected_keyword": "Court of Justice",
+    "expected_file": null,
+    "squad_id": "572656e4dd62a815002e81fe",
+    "ctx_id": "PUBLIC-76615842",
+    "all_answers": [
+      "Court of Justice",
+      "the Court of Justice",
+      "the Court of Justice",
+      "the Court of Justice"
+    ]
+  },
+  {
+    "id": "SQ-F59",
+    "type": "factoid",
+    "q": "What is heralded by the sounding of the division bell?",
+    "ground_truth": "\"Decision Time\"",
+    "expected_keyword": "\"Decision Time\"",
+    "expected_file": null,
+    "squad_id": "572fc49d04bcaa1900d76ccc",
+    "ctx_id": "PUBLIC-68909948",
+    "all_answers": [
+      "\"Decision Time\"",
+      "Decision Time",
+      "\"Decision Time\""
+    ]
+  },
+  {
+    "id": "SQ-U60",
+    "type": "unanswerable",
+    "q": "Who manages construction projects and assumes financial responsibility for completing them?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5a23565482b03a001a4aa790",
+    "ctx_id": "PUBLIC-06665400"
+  },
+  {
+    "id": "SQ-U61",
+    "type": "unanswerable",
+    "q": "The Second World War caused what to be shelved?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5ad0225377cf76001a686b3f",
+    "ctx_id": "PUBLIC-51153927"
+  },
+  {
+    "id": "SQ-U62",
+    "type": "unanswerable",
+    "q": "What does an analog model have that a numerical model doesn not?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5a5920963e1742001a15cfb2",
+    "ctx_id": "PUBLIC-81188867"
+  },
+  {
+    "id": "SQ-U63",
+    "type": "unanswerable",
+    "q": "Who did the Irish culture have a profound effect on?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5ad3f6f5604f3c001a3ffa0a",
+    "ctx_id": "PUBLIC-96801090"
+  },
+  {
+    "id": "SQ-U64",
+    "type": "unanswerable",
+    "q": "What year was St. Elizabeth born?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5ad28ea7d7d075001a429a51",
+    "ctx_id": "PUBLIC-14247832"
+  },
+  {
+    "id": "SQ-U65",
+    "type": "unanswerable",
+    "q": "How old is the NCAA Division I Ivy League competition?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5a823a7731013a001a33530d",
+    "ctx_id": "PUBLIC-22678574"
+  },
+  {
+    "id": "SQ-U66",
+    "type": "unanswerable",
+    "q": " How many non-Muslim empires have used imperialism?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5ad02cf577cf76001a686cdb",
+    "ctx_id": "PUBLIC-71462687"
+  },
+  {
+    "id": "SQ-U67",
+    "type": "unanswerable",
+    "q": "Why did Hutchins eliminate hospitals from the university?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5acf808877cf76001a685006",
+    "ctx_id": "PUBLIC-94627959"
+  },
+  {
+    "id": "SQ-U68",
+    "type": "unanswerable",
+    "q": "If an internal force acts on the system, the center of mass will experience what?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5ad266f6d7d075001a429200",
+    "ctx_id": "PUBLIC-82816361"
+  },
+  {
+    "id": "SQ-U69",
+    "type": "unanswerable",
+    "q": "Where have Genesis geologists measured oxygen isotopes?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5ad25553d7d075001a428d34",
+    "ctx_id": "PUBLIC-43149988"
+  },
+  {
+    "id": "SQ-U70",
+    "type": "unanswerable",
+    "q": " What area was Kublai trying to capture by defending Xiangyang?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5ad40432604f3c001a3ffdbd",
+    "ctx_id": "PUBLIC-43810098"
+  },
+  {
+    "id": "SQ-U71",
+    "type": "unanswerable",
+    "q": "How many companies were registered in Berlin in 2006?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5ad4f63b5b96ef001a10a7c3",
+    "ctx_id": "PUBLIC-02134382"
+  },
+  {
+    "id": "SQ-U72",
+    "type": "unanswerable",
+    "q": "In what year was David Tappan elected to the chair?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5a82025a31013a001a3350b7",
+    "ctx_id": "PUBLIC-66607333"
+  },
+  {
+    "id": "SQ-U73",
+    "type": "unanswerable",
+    "q": "What mineral is written as Fe1 - oX?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5ad261bad7d075001a429052",
+    "ctx_id": "PUBLIC-85431163"
+  },
+  {
+    "id": "SQ-U74",
+    "type": "unanswerable",
+    "q": "What machine does not define BPP, ZPP, and RP?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5ad560b85b96ef001a10ad1f",
+    "ctx_id": "PUBLIC-23913309"
+  },
+  {
+    "id": "SQ-U75",
+    "type": "unanswerable",
+    "q": " Who stated he did not want Israel to vanish?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5acfeb2577cf76001a6864b4",
+    "ctx_id": "PUBLIC-80105787"
+  },
+  {
+    "id": "SQ-U76",
+    "type": "unanswerable",
+    "q": "How many lobes do plankton have?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5a838676e60761001a2eb763",
+    "ctx_id": "PUBLIC-33103670"
+  },
+  {
+    "id": "SQ-U77",
+    "type": "unanswerable",
+    "q": "Who was Vrisovci?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5ad50bb95b96ef001a10aab0",
+    "ctx_id": "PUBLIC-41751813"
+  },
+  {
+    "id": "SQ-U78",
+    "type": "unanswerable",
+    "q": "What do Bathyctena chuni, Euplokamis stationis and Euhamphaea veilligera produce only when they change color?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5a8391c7e60761001a2eb7d9",
+    "ctx_id": "PUBLIC-90444141"
+  },
+  {
+    "id": "SQ-U79",
+    "type": "unanswerable",
+    "q": "What did families with incomes below $38,000 pay for tuition in 2009?",
+    "ground_truth": "I couldn't find this information in the documents.",
+    "expected_keyword": "couldn't find",
+    "expected_file": null,
+    "squad_id": "5a82325231013a001a3352b9",
+    "ctx_id": "PUBLIC-81851055"
+  }
+]

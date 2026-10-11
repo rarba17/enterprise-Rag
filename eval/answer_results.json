@@ -1,0 +1,76 @@
+{
+  "model": "cpu-only",
+  "n": 5,
+  "rows": [
+    {
+      "id": "F01",
+      "type": "factoid",
+      "q": "What is the Project Phoenix budget?",
+      "ground_truth": "$42,500",
+      "answer": "The Project Phoenix budget is $42,500.",
+      "cpu": {
+        "keyword_hit": 1,
+        "token_f1": 0.0,
+        "rougeL": 0.0
+      },
+      "judge": null,
+      "n_chunks": 8
+    },
+    {
+      "id": "F02",
+      "type": "factoid",
+      "q": "How many days of annual leave do full-time employees receive?",
+      "ground_truth": "22 days",
+      "answer": "Full-time employees receive 22 days of annual leave per year.",
+      "cpu": {
+        "keyword_hit": 1,
+        "token_f1": 0.333,
+        "rougeL": 0.333
+      },
+      "judge": null,
+      "n_chunks": 8
+    },
+    {
+      "id": "F03",
+      "type": "factoid",
+      "q": "Who is the Chief Technology Officer?",
+      "ground_truth": "Dr. Amara Singh",
+      "answer": "Dr. Amara Singh",
+      "cpu": {
+        "keyword_hit": 1,
+        "token_f1": 1.0,
+        "rougeL": 1.0
+      },
+      "judge": null,
+      "n_chunks": 8
+    },
+    {
+      "id": "F04",
+      "type": "factoid",
+      "q": "How many days per week may employees work remotely?",
+      "ground_truth": "3 days per week",
+      "answer": "Employees may work remotely up to 3 days per week.",
+      "cpu": {
+        "keyword_hit": 1,
+        "token_f1": 0.429,
+        "rougeL": 0.429
+      },
+      "judge": null,
+      "n_chunks": 8
+    },
+    {
+      "id": "F05",
+      "type": "factoid",
+      "q": "Above what amount do expense reports require manager approval?",
+      "ground_truth": "$1,000",
+      "answer": "Expense reports above $1,000 require manager approval.",
+      "cpu": {
+        "keyword_hit": 1,
+        "token_f1": 0.25,
+        "rougeL": 0.25
+      },
+      "judge": null,
+      "n_chunks": 8
+    }
+  ]
+}

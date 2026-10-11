@@ -1,0 +1,7 @@
+# Eval-only deps — kept separate from prod requirements.txt (no VRAM needed)
+pytest==8.3.4
+requests==2.32.3
+fpdf2==2.7.9          # synthetic PDF generation (tiny, CPU)
+groq==0.11.0          # free-tier cloud judge (no local weights)
+rouge-score==0.1.2    # lexical answer metric (CPU)
+sentence-transformers==3.0.1  # optional: MiniLM cosine on CPU (~80MB). Skip install if RAM <4GB.
